@@ -1,20 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header {
+  width: 100%;                        /* Ocupa toda a largura */
+  background-color: #0072bb;          /* Azul padrão SENAI */
+  color: white;                       /* Texto branco */
+  padding: 40px 0;                    /* Espaçamento interno */
+  font-size: 1.6em;                   /* Tamanho de texto maior */
+  font-weight: bold;                  /* Texto em negrito */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
+  text-align: center;
 }
 
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+
+.menu-principal {
+  margin-top: 10px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: white;
-  }
+.menu-principal a {
+  color: #005b96;           /* Azul escuro para links */
+  text-decoration: none;    /* Remove o sublinhado */
+  margin: 0 10px;           /* Espaçamento lateral */
+  font-weight: 500;         /* Leve destaque */
+}
+
+.menu-principal a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.a:visited{
+  color: white;
+
+}

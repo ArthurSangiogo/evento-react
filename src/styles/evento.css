@@ -1,0 +1,21 @@
+/* Container geral do card de evento */
+.evento {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  
+  .evento:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18);
+  }
+.evento p {
+  font-size: 17px;
+}

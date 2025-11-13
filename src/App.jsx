@@ -4,8 +4,6 @@ import Footer from "./componentes/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
 import "./styles/styles.css";
-
-
 function App() {
   return (
     <Router>
@@ -14,10 +12,7 @@ function App() {
 
 
         {/* Menu de navegação */}
-        <nav>
-          
-        </nav>
-
+      
 
         {/* Definição das rotas */}
         <Routes>
@@ -31,5 +26,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

@@ -6,7 +6,7 @@ function Eventos(props) {
   return (
     // Cria um div para conter o código html, necessário já que react não importa
     // vários componentes html
-    <div className = "Evento">
+    <div className = "evento">
       {/*Recebe o que foi colocado no nome e coloca como o titulo*/}
       <h3>{props.nome}</h3>
       {/*Recebe o que foi colocado na data e coloca como a data*/}
