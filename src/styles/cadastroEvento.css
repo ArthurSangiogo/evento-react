@@ -1,0 +1,67 @@
+.cadastroEvento-container{
+    margin-top: 20px;
+    width: 100%;
+    justify-self: center;
+    max-width: 550px;
+    margin: 20px;
+    background: rgba(0, 150, 200, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px;
+    font-family: Arial;
+}
+.cadastroEvento-container h2{
+ color: black;
+ text-align: center;
+ margin-bottom: 20px;
+ font-size: 20px;
+}
+
+.form-evento{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.form-evento label{
+    font-weight: bold;
+color: blue;
+text-align: center;
+font-size: 16px;
+}
+
+.form-evento input {
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+.botoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-voltar, .btn-salvar {
+    background-color: #0073bb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+
+.btn-salvar:hover{
+    background-color: rgb(45, 149, 240);
+    transform: translate (-1px);
+}
+
+.btn-voltar:hover{
+    background-color: rgb(45, 149, 240);
+    transform: translate (-1px);
+}

@@ -9,6 +9,7 @@ function Home() {
       <p> Aqui você fica por dentro dos eventos.</p>
 
       {/*Exibindo os eventos*/}
+      
       <div className="quadradoE">
       <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />
       </div>

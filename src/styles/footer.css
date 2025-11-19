@@ -2,10 +2,9 @@
     background-color: #0072bb;
     color:white;
     padding: 10px;
-    position: relative;
-    width:100%;
+    position: fixed;
     bottom: 0;
-    letter-spacing: 0.5px;
     align-items: center;
-    z-index: 1;
+    width: 100%;
+ 
   }

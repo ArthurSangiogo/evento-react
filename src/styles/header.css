@@ -2,23 +2,16 @@ header {
   width: 100%;                        /* Ocupa toda a largura */
   background-color: #0072bb;          /* Azul padrão SENAI */
   color: white;                       /* Texto branco */
-  padding: 40px 0;                    /* Espaçamento interno */
+  padding: 10px 0;                    /* Espaçamento interno */
   font-size: 1.6em;                   /* Tamanho de texto maior */
   font-weight: bold;                  /* Texto em negrito */
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
   text-align: center;
 }
 
-
-.menu-principal {
-  margin-top: 10px;
-}
-
 .menu-principal a {
   color: #005b96;           /* Azul escuro para links */
   text-decoration: none;    /* Remove o sublinhado */
-  margin: 0 10px;           /* Espaçamento lateral */
-  font-weight: 500;         /* Leve destaque */
 }
 
 .menu-principal a:hover {

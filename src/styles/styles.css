@@ -122,20 +122,16 @@ body {
 }
 
 .quadradoE {
-  width: 195px;
-  height: 175px;
+  width: 40%;
   background-color: #0073bb59;
   margin: auto;
   border-radius: 12px;
-  z-index: 2;
-
 box-shadow: 11px 11px 17px rgba(0, 0, 0, 0.427);
-
-  display: flex; /* transforma em container flex */
+  display: grid; /* transforma em container flex */
   flex-direction: column; /* mantém o texto empilhado */
   justify-content: center; /* centraliza verticalmente */
   align-items: center; /* centraliza horizontalmente */
-
+gap: 45px;
   text-align: center; /* garante que o texto fique centralizado */
   position: relative;
   margin-bottom: 15px;
@@ -143,3 +139,19 @@ box-shadow: 11px 11px 17px rgba(0, 0, 0, 0.427);
 p {
   font-size: 19px;
 }
+
+
+
+
+.Home{
+  margin-top: 100px;
+  width: 30%;
+    margin: auto;
+    padding: 20px;
+    background-color: #0073bb59;
+    border-radius: 40px;
+    height: 30%;
+
+}
+
+
