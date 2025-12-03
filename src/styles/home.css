@@ -1,13 +1,48 @@
-.pagina-inicio {
-    
+.Home {
+
   width: 100%;
-  max-width: 900px;  
-  background-color: #3c64d3;
-  color:rgb(0, 0, 0);
-  padding: 10px;
-  margin: 5px;
-  width:100%;
-  bottom: 0;
+  max-width: 400px; 
+  margin: 50px auto;
+  padding: 25px; 
+
+  background-color: #c4deff; 
+  color: #0073bb; 
   border-radius: 12px;
-  letter-spacing: 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); 
+  font-family: Arial, sans-serif;
+  text-align: center; 
+}
+
+.Home h1 {
+  color: #0073bb; 
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Home p {
+  color: #333; 
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+
+.quadradoE {
+  background-color: #a0c2ed; 
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.quadradoE strong {
+  color: #004d80; 
+  font-size: 17px;
+  display: block; 
+}
+
+.quadradoE p {
+  color: #000000; 
+  margin: 3px 0;
+  font-size: 14px;
 }

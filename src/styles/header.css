@@ -1,13 +1,32 @@
 header {
-  width: 100%;                        /* Ocupa toda a largura */
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100vh;                        /* Ocupa toda a largura */
   background-color: #0072bb;          /* Azul padrão SENAI */
   color: white;                       /* Texto branco */
   padding: 10px 0;                    /* Espaçamento interno */
-  font-size: 1.6em;                   /* Tamanho de texto maior */
+  font-size: 15px;                   /* Tamanho de texto maior */
   font-weight: bold;                  /* Texto em negrito */
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+header nav{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+header h2{
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
 
 .menu-principal a {
   color: #005b96;           /* Azul escuro para links */

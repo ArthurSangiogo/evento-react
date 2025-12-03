@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer>
-      <p> Arthur Sangiogo- {ano} </p>
+      <p> Todos os direitos reservados ALLA©  {ano} </p>
     </footer>
   );
 }

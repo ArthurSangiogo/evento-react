@@ -1,0 +1,163 @@
+/* Código CSS do exemplo anterior (style.css) */
+
+/* Importar uma fonte (ex: Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --cor-fundo-geral: #ffffff;
+    --cor-cartao: #c4deff;
+    --cor-primaria: #0084ff; 
+    --cor-texto-escuro: #2e4d88;
+    --cor-texto-claro: #ffffff; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* O container principal que substitui o 'body' para o fundo */
+.login-page {
+    background-color: var(--cor-fundo-geral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+/* Estilo do container principal (o cartão de login) */
+.login-container {
+    background-color: var(--cor-cartao);
+    width: 550px;
+    padding: 50px 25px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+                0 0 0 5px rgba(27, 151, 233, 0.8); 
+    position: relative; 
+        margin-top: 40px; /* Altere este valor para a distância desejada */
+}
+
+/* Título 'Login' no topo */
+.login-title {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Grupo de Input (Ícone + Campo) */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #5c88dad8; 
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.input-group svg { /* Altera a cor do ícone SVG/FontAwesome */
+    color: var(--cor-fundo-geral);
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 10px 0;
+    color: var(--cor-texto-escuro);
+    font-size: 1em;
+    outline: none; 
+}
+
+.input-group input::placeholder {
+    color: var(--cor-fundo-geral);
+}
+
+/* Botão de Acesso */
+.access-button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    border: none;
+    width: 60%;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s;
+}
+
+.access-button:hover {
+    background-color: #2147c2;
+}
+
+/* Separador "OU" e "Continuo com" */
+.separator-text, .continue-text {
+    color: var(--cor-texto-escuro);
+    margin: 10px 0;
+}
+
+/* Login Social */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.social-login a {
+    color: var(--cor-texto-escuro);
+    font-size: 1.8em;
+    transition: color 0.3s;
+}
+
+.social-login a:hover {
+    color: var(--cor-primaria);
+}
+
+/* Cadastro */
+.signup-text {
+    color: var(--cor-texto-escuro);
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.signup-link {
+    color: var(--cor-primaria);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.fiesc-conect {
+    color: var(--cor-primaria);
+    font-weight: 700;
+    font-style: italic;
+    background: linear-gradient(45deg, rgb(182, 205, 231), #2a2eec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo FIESC */
+.logo-fiesc {
+    width: 250px; /* Largura que você precisa */
+    height: auto; /* Mantém a proporção */
+    display: block;
+    margin: 0 auto;
+}

@@ -3,6 +3,7 @@ import Header from "./componentes/Header";
 import Footer from "./componentes/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
+import Login from "./paginas/Login";
 import "./styles/styles.css";
 import "./styles/cadastroEvento.css";
 import CadastroEvento from "./paginas/CadastroEventos";
@@ -20,7 +21,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/cadastrar" element={<CadastroEvento />} />  
+          <Route path="/cadastrar" element={<CadastroEvento />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
 
 

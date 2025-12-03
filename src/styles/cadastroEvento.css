@@ -1,22 +1,38 @@
+body {
+    background-color: #f4f4f4; /* Cor de fundo suave para o corpo da página */
+    margin: 0;
+}
+
+/* Opcional: Estilo adicional para o container principal da página (para replicar a imagem) */
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+/* Container principal do formulário */
 .cadastroEvento-container{
     margin-top: 20px;
     width: 100%;
     justify-self: center;
     max-width: 550px;
     margin: 20px;
-    background: rgba(0, 150, 200, 0.1);
+    background: #c4deff; /* Cor de fundo azul claro do formulário */
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0px 4px 12px;
-    font-family: Arial;
-}
-.cadastroEvento-container h2{
- color: black;
- text-align: center;
- margin-bottom: 20px;
- font-size: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+    font-family: Arial, sans-serif;
 }
 
+.cadastroEvento-container h2{
+    color: #0073bb; /* Cor do título 'Cadastrar Evento' (ajustado para ser visível no fundo) */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Estilos do formulário */
 .form-evento{
     display: flex;
     flex-direction: column;
@@ -26,25 +42,30 @@
 
 .form-evento label{
     font-weight: bold;
-color: blue;
-text-align: center;
-font-size: 16px;
+    color: #0073bb; /* Cor do rótulo (Título, Data, Local) */
+    text-align: center;
+    font-size: 16px;
 }
 
+/* Estilo dos campos de digitação (INPUT) */
 .form-evento input {
     padding: 12px;
-    border: 1px solid;
+    border: 1px solid #999;
     border-radius: 8px;
     font-size: 16px;
-
+    /* >>> AQUI ESTÁ A MUDANÇA DA COR DE FUNDO DOS CAMPOS <<< */
+    background-color: #5c88dad8; 
 }
 
+/* Container dos botões */
 .botoes{
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-top: 20px; /* Espaçamento acima dos botões */
 }
 
+/* Estilo dos botões */
 .btn-voltar, .btn-salvar {
     background-color: #0073bb;
     border: none;
@@ -53,15 +74,11 @@ font-size: 16px;
     cursor: pointer;
     font-size: 16px;
     color: white;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
 }
 
-
-.btn-salvar:hover{
+/* Efeito de HOVER dos botões */
+.btn-salvar:hover, .btn-voltar:hover{
     background-color: rgb(45, 149, 240);
-    transform: translate (-1px);
-}
-
-.btn-voltar:hover{
-    background-color: rgb(45, 149, 240);
-    transform: translate (-1px);
+    /* transform: translate (-1px); <--- Removido, pois 'translate' é uma função 3D e não estava com sintaxe correta */
 }
