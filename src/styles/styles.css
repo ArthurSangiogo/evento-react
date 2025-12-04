@@ -24,7 +24,8 @@ p {
 .Home{
   margin-top: 100px;
   width: 65%;
-    margin: auto;
+    margin: 50px auto;
+    margin-right:225px;
     padding: 20px;
     background-color: #0073bb;
     border-radius: 40px;
