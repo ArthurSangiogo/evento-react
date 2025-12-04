@@ -4,8 +4,8 @@ body {
 }
 
 .quadradoE {
-  width: 40%;
-  background-color: #0073bb59;
+  width: 100%;
+  background-color: #ffffffbb;
   margin: auto;
   border-radius: 12px;
 box-shadow: 11px 11px 17px rgba(0, 0, 0, 0.427);
@@ -13,7 +13,7 @@ box-shadow: 11px 11px 17px rgba(0, 0, 0, 0.427);
   flex-direction: column; /* mantém o texto empilhado */
   justify-content: center; /* centraliza verticalmente */
   align-items: center; /* centraliza horizontalmente */
-gap: 45px;
+
   text-align: center; /* garante que o texto fique centralizado */
   position: relative;
   margin-bottom: 15px;
@@ -23,12 +23,12 @@ p {
 }
 .Home{
   margin-top: 100px;
-  width: 30%;
+  width: 65%;
     margin: auto;
     padding: 20px;
-    background-color: #0073bb59;
+    background-color: #0073bb;
     border-radius: 40px;
-    height: 30%;
+    height: 100%;
 
 }
 

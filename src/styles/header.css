@@ -7,7 +7,7 @@ header {
   background-color: #0072bb;          /* Azul padrão SENAI */
   color: white;                       /* Texto branco */
   padding: 10px 0;                    /* Espaçamento interno */
-  font-size: 15px;                   /* Tamanho de texto maior */
+  font-size: 20px;                   /* Tamanho de texto maior */
   font-weight: bold;                  /* Texto em negrito */
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
   text-align: center;
@@ -45,4 +45,27 @@ a{
 .a:visited{
   color: white;
 
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* espaço entre os botões */
+  margin-top: 20px;
+}
+
+.botao-menu {
+  background-color: #ffffffc0;      /* cor do quadrado */
+  color: #0073bb;
+  padding: 12px 20px;
+  border-radius: 8px;             /* arredondamento opcional */
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  width: 120px;                   /* deixa os quadrados iguais */
+  transition: 0.2s;
+  font-size: medium;
+}
+
+.botao-menu:hover {
+  background-color: #ffffff;
 }

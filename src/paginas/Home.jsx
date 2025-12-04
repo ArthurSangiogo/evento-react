@@ -9,15 +9,8 @@ function Home() {
         <p> Aqui você fica por dentro dos eventos.</p>
 
         {/* Exibindo os eventos */}
-        
         <div className="quadradoE">
-          <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />
-        </div>
-        <div className="quadradoE">
-          <Evento nome="Jogo da Chape" data="26/11/2025" local="Arena Condá" />
-        </div>
-        <div className="quadradoE">
-          <Evento nome="Enem" data="16/11/2025" local="Unoesc" />
+          <Evento nome="Natal" data="25/12/2025" local="Ceia" />
         </div>
         <div className="quadradoE">
           <Evento nome="Aniversário Sangiogo" data="14/04/2026" local="Chapecó" />
@@ -27,6 +20,9 @@ function Home() {
         </div>
         <div className="quadradoE">
           <Evento nome="Aniversário Ana" data="21/04/2026" local="Chapecó" />
+        </div>
+        <div className="quadradoE">
+          <Evento nome="Aniversário Luan" data="24/07/2026" local="Chapecó" />
         </div>
       </div>
     </main>

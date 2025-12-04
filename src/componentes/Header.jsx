@@ -9,8 +9,12 @@ function Header() {
     <header>
       <h2> Sistema Gerenciador de Eventos SENAI</h2>
       <nav>
-      <Link to="/"> Início </Link> |  <Link to="/cadastrar"> Cadastrar </Link>  |  <Link to="/login"> Login</Link> | <Link to="/sobre"> Sobre </Link> {" "} 
-      </nav>
+    <Link className="botao-menu" to="/">Início</Link>
+    <Link className="botao-menu" to="/cadastrar">Cadastrar</Link>
+    <Link className="botao-menu" to="/login">Login</Link>
+    <Link className="botao-menu" to="/sobre">Sobre</Link>
+</nav>
+
     </header>
     </div>
   );

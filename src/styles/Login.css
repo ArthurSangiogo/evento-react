@@ -61,13 +61,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    background-color: #5c88dad8; 
+    background-color: #ffffff; 
     border-radius: 10px;
     padding: 5px 10px;
 }
 
 .input-group svg { /* Altera a cor do ícone SVG/FontAwesome */
-    color: var(--cor-fundo-geral);
+    color: #0073bb;
     font-size: 1.2em;
     margin-right: 10px;
 }
@@ -75,20 +75,19 @@
 .input-group input {
     flex-grow: 1;
     border: none;
-    background: transparent;
+   background: transparent;
     padding: 10px 0;
-    color: var(--cor-texto-escuro);
     font-size: 1em;
     outline: none; 
 }
 
 .input-group input::placeholder {
-    color: var(--cor-fundo-geral);
+    color: #0073bb;
 }
 
 /* Botão de Acesso */
 .access-button {
-    background-color: var(--cor-primaria);
+    background-color: #0073bb;
     color: var(--cor-texto-claro);
     border: none;
     width: 60%;
@@ -103,7 +102,8 @@
 }
 
 .access-button:hover {
-    background-color: #2147c2;
+    background-color: #ffffffc0;
+    color: #0073bb;
 }
 
 /* Separador "OU" e "Continuo com" */
